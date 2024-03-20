@@ -1,0 +1,2126 @@
+body {
+    font-family: Roboto-Regular, 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/*                                                THIS IS HEADER CSS                              */
+
+header {
+    background-color: #f85606;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.header-main-div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 22px;
+
+}
+
+.links:hover {
+    color: #ffddcb;
+}
+
+.app-link {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.app-link:hover {
+    color: #ffddcb;
+}
+
+.header-first-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.daraz-mini-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.top-link2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #0000004D;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+/*                                          THIS IS MOBILE APP DROPDOWN                                */
+
+.app-dropdown-data {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    z-index: 4;
+    display: none;
+    box-shadow: 0px 3px 13px rgb(185, 185, 185);
+    border-radius: 5px;
+}
+
+.mobile-app-dropdown:hover .app-dropdown-data {
+    display: block;
+}
+
+.app-dropdown-corner {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 9;
+    top: -29px;
+    right: -278px;
+    rotate: 46deg;
+    background-color: white;
+}
+
+.mobile-app-dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.mobile-img {
+    width: 300px;
+    height: 230px;
+    margin-left: 20px;
+
+}
+
+.app-dropdown-h {
+    color: #f85606;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.app-dropdown-bottom {
+    display: flex;
+    column-gap: 10px;
+}
+
+.qr-code {
+    width: 160px;
+    height: 160px;
+}
+
+.i-phone-link {
+    background-color: black;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.i-phone-text {
+    color: white;
+    font-size: 12px;
+}
+
+.fa-apple {
+    font-size: 45px;
+    color: white;
+}
+
+.app-store {
+    font-size: 20px;
+}
+
+.play-store-div {
+    background-color: black;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.fa-google-play {
+    color: white;
+    font-size: 38px;
+}
+
+.play-store-text {
+    color: white;
+    font-size: 12px;
+}
+
+.play-store {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.app-gallery-div {
+    background-color: black;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.fa-cc-apple-pay {
+    font-size: 38px;
+    color: white;
+
+}
+
+.app-gallery-text {
+    font-size: 12px;
+    color: white;
+
+}
+
+.app-gallery {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*                                              THIS IS HEADER DIV 2                                   */
+.daraz-logo {
+    width: 120px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.search-here {
+    max-width: 720px;
+    height: 40px;
+    padding: 13px 19px;
+    border-radius: 10px;
+    border: none;
+    flex-grow: 1;
+
+}
+
+.search-icon-div {
+    background-color: #ffe1d2;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 3%;
+    transform: translateX(-50%);
+}
+
+.search-here::placeholder {
+    color: rgb(161, 161, 161);
+}
+
+.search-here:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.header-second-div {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    color: #f85606;
+}
+
+.user-icon {
+    color: white;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.login {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.links2 {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.links2:hover {
+    background-color: rgba(95, 95, 95, 0.16);
+}
+
+.line {
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.sign-up:hover {
+    background-color: rgba(95, 95, 95, 0.16);
+}
+
+.sign-up {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-globe {
+    font-size: 20px;
+    color: white;
+}
+
+.EN {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+
+.down-aerow {
+    color: white;
+    font-size: 10px;
+
+}
+
+.fa-cart-shopping {
+    color: white;
+    font-size: 25px;
+}
+
+.shoppig-icon-div {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoppig-icon-div:hover {
+    background-color: rgba(95, 95, 95, 0.16);
+}
+
+/*                                       THIS IS LANGUAGE DROPDOWN CSS                                             */
+
+.language-dropdown-data {
+    background-color: white;
+    width: 140px;
+    padding: 15px 20px;
+    position: absolute;
+    top: 54px;
+    right: -29px;
+    box-shadow: 0px 3px 10px rgb(173, 173, 173);
+    display: none;
+    border-radius: 5px;
+}
+
+.language-dropdown-div {
+    display: inline-block;
+    position: relative;
+}
+
+.language-dropdown-div:hover .language-dropdown-data {
+    display: block;
+}
+
+.labels {
+    font-size: 12px;
+    color: rgb(66, 66, 66);
+
+
+}
+
+.select-lang {
+    accent-color: #f85606;
+    position: relative;
+    top: 3px;
+    left: -6px;
+    visibility: hidden;
+}
+
+.select-lang:checked {
+    visibility: visible;
+}
+
+.lang-dropdown-corner {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    top: -22px;
+    right: -100px;
+    rotate: 43deg;
+    z-index: 9;
+}
+
+/*                                            THIS IS HELP & SUPPORT DROPDOWM                                       */
+
+.help-dropdown-links {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    display: block;
+    padding: 15px 20px;
+
+}
+
+.help-dropdown-data {
+    background-color: white;
+    box-shadow: 0px 2px 9px rgb(142, 141, 141);
+    width: 230px;
+    position: absolute;
+    top: 34px;
+    left: -66px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.help-dropdown-links-icons {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.help-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.help-dropdown-corner {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 99px;
+    top: -21px;
+    z-index: 2;
+    rotate: 44deg;
+}
+
+.help-dropdown:hover .help-dropdown-data {
+    display: block;
+}
+
+.help-dropdown-text {
+    font-size: 14px;
+}
+
+.help-dropdown-text:hover {
+    color: #f85606;
+    border-bottom: 1px solid #f85606;
+}
+
+/*                                                THIS IS SECTION 1 CSS                                  */
+.section1-main-div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section1-div1 {
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.banner-option-links {
+    color: rgb(121, 120, 120);
+    text-decoration: none;
+    padding: 3px 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.banner-option-links:hover {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+.banner-option-div {
+    background-color: white;
+    width: 280px;
+    padding: 10px 0px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px solid #e3e3e3;
+}
+
+.banner-option-icons {
+    font-size: 14px;
+
+}
+
+.banner-option-text {
+    font-size: 13px;
+}
+
+.banner-option-icon-div {
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e7e6e698;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*                                             THIS IS BANNER IMAGE GALLERY  CSS                              */
+
+.banner-gallery {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 1000px;
+    height: 390px;
+
+}
+
+.banner-gallery-items {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 17px;
+    display: inline-flex;
+    background-image: url(./daraz\ img/one.jpg);
+    column-gap: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 30s 2s infinite ease-in-out;
+
+
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('./daraz\ img/one.jpg');
+    }
+
+    10% {
+        background-image: url('./daraz\ img/two.jpg');
+    }
+
+    20% {
+        background-image: url('./daraz\ img/three.png');
+    }
+
+    30% {
+        background-image: url('./daraz\ img/four.jpg');
+    }
+
+    40% {
+        background-image: url('./daraz\ img/five.jpg');
+    }
+
+    50% {
+        background-image: url('./daraz\ img/six.jpg');
+    }
+
+    60% {
+        background-image: url('./daraz\ img/seven.png');
+    }
+
+    70% {
+        background-image: url('./daraz\ img/one.jpg');
+    }
+
+    80% {
+        background-image: url('./daraz\ img/two.jpg');
+    }
+
+    90% {
+        background-image: url('./daraz\ img/three.png');
+    }
+
+    100% {
+        background-image: url('./daraz\ img/four.jpg');
+    }
+}
+
+.gallery-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/*                                              THIS IS GROCERY DROPDOWN                                         */
+
+#grocery-more-icon {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.banner-option-text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.grocery-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -10px;
+    left: 262px;
+    display: none;
+}
+
+.grocery-dropdown-links {
+    display: block;
+    color: rgb(121, 120, 120);
+    text-decoration: none;
+    padding: 7px 15px;
+    font-size: 13px;
+
+}
+
+.grocery-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.grocery-dropdown:hover .grocery-dropdown-data {
+    display: block;
+}
+
+.grocery-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.grocery-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                         THIS IS GROCERY ITEM 1 DDROPDOWN CSS                                   */
+
+.grocery-item1-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item1-dropdown:hover .grocery-item1-dropdown-data {
+    display: block;
+}
+
+.grocery-item1-dropdown:hover #fresh-produce-icon {
+    display: block;
+}
+
+.grocery-item1-dropdown:hover #fresh-produce {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+.grocery-item1-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+.produce-imgs {
+    width: 50px;
+    height: 50px;
+}
+
+.produce-links {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.item1-dropdomn-div1-h {
+    font-size: 18px;
+    color: rgb(57, 57, 57);
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.item1-dropdomn-div1 {
+    width: 100%;
+    height: 100%;
+}
+
+.item1-div1-img-text {
+    font-size: 14px;
+    color: #6f6f6f;
+    text-align: center;
+}
+
+.item1-div1-img-text:hover {
+    color: #f85606;
+}
+
+#fresh-produce-icon {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+#fresh-produce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*                                              THIS IS GROCERY ITEM 2 DROPDOWN                            */
+
+.grocery-item2-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item2-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -39px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce-icon1 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item2-dropdown:hover .grocery-item2-dropdown-data {
+    display: block;
+}
+
+.grocery-item2-dropdown:hover #fresh-produce-icon1 {
+    display: block;
+}
+
+.grocery-item2-dropdown:hover #fresh-produce2 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+#fresh-produce2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*                                               THIS IS GROCERY ITEM 3 DROPDOWN                             */
+.grocery-item3-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item3-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -68px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fresh-produce-icon3 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item3-dropdown:hover .grocery-item3-dropdown-data {
+    display: block;
+}
+
+.grocery-item3-dropdown:hover #fresh-produce-icon3 {
+    display: block;
+}
+
+.grocery-item3-dropdown:hover #fresh-produce3 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                            THIS IS GROCERY ITEM 4 DROPDOWN                                      */
+
+.grocery-item4-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item4-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -97px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fresh-produce-icon4 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item4-dropdown:hover .grocery-item4-dropdown-data {
+    display: block;
+}
+
+.grocery-item4-dropdown:hover #fresh-produce-icon4 {
+    display: block;
+}
+
+.grocery-item4-dropdown:hover #fresh-produce4 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                         THIS IS GROCERY ITEM 5 DROPDOWN                                       */
+
+.grocery-item5-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.grocery-item5-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -126px;
+    right: -741px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce5 {
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+}
+
+#fresh-produce-icon5 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item5-dropdown:hover .grocery-item5-dropdown-data {
+    display: block;
+}
+
+.grocery-item5-dropdown:hover #fresh-produce-icon5 {
+    display: block;
+}
+
+.grocery-item5-dropdown:hover #fresh-produce5 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                          THIS IS GROCERY ITEM 6 DROPDOWN                                */
+
+.grocery-item6-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item6-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -155px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fresh-produce-icon6 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item6-dropdown:hover .grocery-item6-dropdown-data {
+    display: block;
+}
+
+.grocery-item6-dropdown:hover #fresh-produce-icon6 {
+    display: block;
+}
+
+.grocery-item6-dropdown:hover #fresh-produce6 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                            THIS IS GROCERY ITEM 7 DROPDOWN                               */
+.grocery-item7-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item7-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -184px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fresh-produce-icon7 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item7-dropdown:hover .grocery-item7-dropdown-data {
+    display: block;
+}
+
+.grocery-item7-dropdown:hover #fresh-produce-icon7 {
+    display: block;
+}
+
+.grocery-item7-dropdown:hover #fresh-produce7 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                     THIS IS GROCERY ITEM 8 DROPDOWN                                      */
+
+.grocery-item8-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item8-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -213px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fresh-produce-icon8 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item8-dropdown:hover .grocery-item8-dropdown-data {
+    display: block;
+}
+
+.grocery-item8-dropdown:hover #fresh-produce-icon8 {
+    display: block;
+}
+
+.grocery-item8-dropdown:hover #fresh-produce8 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                          THIS IS GROCERY ITEM 9 DROPDOWN                                   */
+
+.grocery-item9-dropdown {
+    display: block;
+    position: relative;
+}
+
+.grocery-item9-dropdown-data {
+    width: auto;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: -242px;
+    right: -740px;
+    padding: 10px 0px;
+    display: none;
+}
+
+#fresh-produce9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fresh-produce-icon9 {
+    color: #f85606;
+    font-size: 13px;
+    display: none;
+}
+
+.grocery-item9-dropdown:hover .grocery-item9-dropdown-data {
+    display: block;
+}
+
+.grocery-item9-dropdown:hover #fresh-produce-icon9 {
+    display: block;
+}
+
+.grocery-item9-dropdown:hover #fresh-produce9 {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                   THIS IS HEALTH & BEAUTY DROPDOWN CSS                      --> */
+
+.beauty-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.beauty-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -41px;
+    left: 262px;
+    display: none;
+}
+
+.beauty-dropdown:hover .beauty-dropdown-data {
+    display: block;
+}
+
+.beauty-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.beauty-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                   THIS IS MENS FACHION DROPDOWN CSS                                --> */
+
+.mens-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.mens-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -72px;
+    left: 262px;
+    display: none;
+}
+
+.mens-dropdown:hover .mens-dropdown-data {
+    display: block;
+}
+
+.mens-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.mens-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                    THIS IS WOMENS FACHION DROPDOWN CSS                                 --> */
+
+.womens-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.womens-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -103px;
+    left: 262px;
+    display: none;
+}
+
+.womens-dropdown:hover .womens-dropdown-data {
+    display: block;
+}
+
+.womens-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.womens-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                     THIS IS MOTHER & BABY  DROPDOWN CSS                               --> */
+
+.mother-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.mother-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -134px;
+    left: 262px;
+    display: none;
+}
+
+.mother-dropdown:hover .mother-dropdown-data {
+    display: block;
+}
+
+.mother-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.mother-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+
+/* <!--                                THIS IS HOME & LIFE STYLE  DROPDOWN CSS                               --> */
+
+.home-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.home-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -165px;
+    left: 262px;
+    display: none;
+}
+
+.home-dropdown:hover .home-dropdown-data {
+    display: block;
+}
+
+.home-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.home-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                  THIS IS ELECTRONICES DEVICES DROPDOWN CSS                           --> */
+
+.electronics-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.electronics-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -196px;
+    left: 262px;
+    display: none;
+}
+
+.electronics-dropdown:hover .electronics-dropdown-data {
+    display: block;
+}
+
+.electronics-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.electronics-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                             THIS IS ELECTRONICES ACCESSORIES DROPDOWN CSS                             --> */
+
+.accessories-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.accessories-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -227px;
+    left: 262px;
+    display: none;
+}
+
+.accessories-dropdown:hover .accessories-dropdown-data {
+    display: block;
+}
+
+.accessories-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.accessories-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                              THIS IS  TV & Home Appliances DROPDOWN CSS                               --> */
+
+.tv-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.tv-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -258px;
+    left: 262px;
+    display: none;
+}
+
+.tv-dropdown:hover .tv-dropdown-data {
+    display: block;
+}
+
+.tv-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.tv-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                  THIS IS Sports & Outdoor DROPDOWN CSS                                --> */
+
+.sports-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.sports-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -289px;
+    left: 262px;
+    display: none;
+}
+
+.sports-dropdown:hover .sports-dropdown-data {
+    display: block;
+}
+
+.sports-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.sports-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                             THIS IS Watches, Bags & Jewellery DROPDOWN CSS                            --> */
+
+.watches-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.watches-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -320px;
+    left: 262px;
+    display: none;
+}
+
+.watches-dropdown:hover .watches-dropdown-data {
+    display: block;
+}
+
+.watches-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.watches-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/* <!--                                  THIS IS Automotive & Motorbike DROPDOWN CSS                          --> */
+
+.automotive-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.automotive-dropdown-data {
+    width: 200px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 0px;
+    position: absolute;
+    top: -351px;
+    left: 262px;
+    display: none;
+}
+
+.automotive-dropdown:hover .automotive-dropdown-data {
+    display: block;
+}
+
+.automotive-dropdown:hover #grocery-more-icon {
+    display: block;
+}
+
+.automotive-dropdown:hover .banner-option-links {
+    color: #f85606;
+    background-color: #e7e6e6a5;
+}
+
+/*                                              THIS IS SECTION 1 DIV 2 CSS                                       */
+
+.section1-div2 {
+    background-color: #fff1eb;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.section1-div2:hover {
+    background-color: #ffe5da;
+}
+
+.div2-link1 {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 0px 19px;
+
+}
+
+.div2-link1-h {
+    color: black;
+    font-size: 15px;
+}
+
+.payment-icon {
+    color: #f85606;
+    font-size: 20px;
+}
+
+.btw {
+    color: black;
+    font-size: 13px;
+}
+
+.truck-icon {
+    font-size: 20px;
+    color: rgb(1, 81, 92);
+}
+
+.return-icon {
+    font-size: 15px;
+    color: white;
+}
+
+.return-icon-div {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(53, 4, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag-icon {
+    color: #f85606;
+    font-size: 20px;
+}
+
+.star-icon {
+    color: rgb(53, 4, 99);
+    font-size: 20px;
+}
+
+.more-icon {
+    color: black;
+    font-size: 13px;
+}
+
+/*                                              THIS IS SECTION 1 DIV 3 CSS                                      */
+
+.section1-div3 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.section1-div3-imgs {
+    width: 80px;
+    height: 80px;
+}
+
+.div3-links {
+    padding: 0px 18px;
+    text-decoration: none;
+
+}
+
+.div3-links:hover .section1-div3-h {
+    color: #f85606;
+}
+
+.section1-div3-h {
+    color: black;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section1-div3-btw {
+    height: 60px;
+    width: 2px;
+    background-color: rgb(214, 214, 214);
+    margin: 0px 5px;
+}
+
+/*                                                 THIS IS SECTION 2 CSS                                         */
+
+.section2-main-div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section2-main-div1 {
+    background-color: white;
+}
+
+.section2-heading {
+    color: #757575;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.section2-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-bottom: 1px solid #d3d3d3e2;
+    margin-bottom: 10px;
+}
+
+.sale-h {
+    color: #f85606;
+    font-size: 14px;
+}
+
+.timer-h {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.timer-time {
+    width: 40px;
+    height: 35px;
+    background-color: #f85606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px 10px;
+}
+
+.dot {
+    font-size: 14px;
+    color: #f85606;
+}
+
+.sale-timer {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+
+}
+
+.shop-more-btn {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #f85606;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #f85606;
+}
+
+.sale-flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.cards {
+    width: 188px;
+    height: 290px;
+    margin-bottom: 20px;
+}
+
+.cards:hover {
+    box-shadow: 0px 3px 4px rgb(171, 171, 171);
+}
+
+.cards-link {
+    text-decoration: none;
+}
+
+.card-img-div {
+    width: 188px;
+    height: 188px;
+}
+
+.section2-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-para {
+    padding: 10px 0px;
+    font-size: 14px;
+    color: black;
+}
+
+.cards-items-price {
+    color: #f85606;
+    font-size: 18px;
+}
+
+.card-text-div {
+    padding: 0px 10px;
+}
+
+.items-old-price del {
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+.items-old-price {
+    color: #212121;
+    font-size: 12px;
+}
+
+.section2-div2 {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    margin-left: 1px;
+}
+
+/*                                                THIS IS SECTION 3 CSS                                           */
+.section3-main-div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section3-heading {
+    font-size: 22px;
+    color: #424242;
+    font-weight: 400;
+}
+
+.section3-card-img {
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
+}
+
+.section3-cards {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2px 0px 0px 2px;
+}
+
+.section3-cards:hover {
+    box-shadow: 0px 3px 4px rgb(171, 171, 171);
+}
+
+.section3-cards-h {
+    font-size: 14px;
+    color: #212121;
+    margin-top: 20px;
+}
+
+.section3-card-link {
+    text-decoration: none;
+}
+
+.section3-div1 {
+    display: flex;
+    align-items: center;
+}
+
+/*                                                   THIS IS SECTION 4 CSS                                       */
+
+.section4-main-div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section4-cards {
+    background-color: white
+}
+
+.load-more-btn {
+    width: 387px;
+    height: 40px;
+    border: 1px solid #f85606;
+    color: #f85606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+/*                                                  THIS IS SECTION 5 CSS                                   */
+
+.section5-main-div {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section4-headings {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #f85606;
+}
+
+.section4-links {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+
+}
+
+.section4-links:hover {
+    text-decoration: underline;
+}
+
+.section4-list-data {
+    list-style: none;
+}
+
+.section4-list {
+    padding: 0px;
+}
+
+.flags-div3-part1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.section4-links {
+    display: flex;
+    align-items: center;
+}
+
+.div3-part1-links {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.two {
+    margin-top: 10px;
+}
+
+.part3-images {
+    width: 50px;
+    height: 30px;
+}
+
+.part3-img {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.qr-code2 {
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.apple2 {
+    font-size: 28px;
+}
+
+.phone2 {
+    width: 100px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+.phone2-text {
+    font-size: 8px;
+}
+
+.store2 {
+    font-size: 12px;
+}
+
+.apple3 {
+    font-size: 25px;
+}
+
+.store3 {
+    font-size: 10px;
+}
+
+.apple4 {
+    font-size: 23px;
+}
+
+.app-bottom-2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.play2 {
+    margin-top: 8px;
+}
+
+.daraz-mini-logo2 {
+    width: 45px;
+    height: 45px;
+}
+
+.download {
+    font-size: 12px;
+    color: black;
+    display: block;
+}
+
+.div5-part2 {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.facebook-icon {
+    font-size: 30px;
+    color: rgb(12, 123, 198);
+}
+
+.twitter-icon {
+    font-size: 30px;
+    color: rgb(15, 141, 225);
+}
+
+.icon-row-link {
+    text-decoration: none;
+}
+
+.insta-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.insta-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+        radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+        linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.part3-icon-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.youtube-icon {
+    font-size: 30px;
+    color: #d8391e;
+}
+
+.internet-icon {
+    font-size: 30px;
+    color: #f85606;
+}
+
+/*                                                   THIS  IS FOOTER CSS                                     */
+
+footer {
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+.footer-main-div {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.footer-h-1 {
+    color: #383838;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-para {
+    color: #999;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.footer-h-2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #606060;
+}
+
+strong {
+    font-size: 10px;
+    font-weight: 600;
+    color: #999;
+}
+
+.footer-div1 {
+    width: 25%;
+}
+
+.footer-div2 {
+    width: 25%;
+}
+
+/*                                                    THIS IS MESSAGE BOX CSS                                  */
+
+.message-dropdown {
+    position: fixed;
+    right: 0%;
+    bottom: 6%;
+    z-index: 999;
+}
+
+.comment-icon {
+    color: rgb(108, 108, 108);
+    font-size: 20px;
+}
+
+.message-h {
+    font-size: 12px;
+    color: black;
+}
+
+.message-box {
+    width: 70px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 10px rgb(169, 169, 169);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.message-dropdown-data {
+    background-color: white;
+    width: 740px;
+    height: 500px;
+    display: none;
+    box-shadow: 0px 1px 9px rgb(169, 169, 169);
+}
+
+.message-dropdown-flex {
+    display: flex;
+}
+
+.message-h-2 {
+    font-size: 18px;
+    color: #757575;
+    margin-left: 8px;
+    font-family: HelveticaNeue-Medium;
+    line-height: 20px;
+}
+
+.left-div-head {
+    height: 50px;
+    border-bottom: 1px solid #e6e7eb;
+}
+
+.left-div {
+    width: 37%;
+}
+
+.left-div-body {
+    background-color: #eff0f5;
+    height: 449px;
+}
+
+.left-head-text {
+    padding: 15px 20px;
+}
+
+.right-div-head {
+    height: 50px;
+    border-bottom: 1px solid #e6e7eb;
+}
+
+.right-div {
+    width: 63%;
+    border-left: 1px solid #e6e7eb;
+}
+
+.right-head-text {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#checked {
+    display: none;
+}
+
+#checked:checked+.message-dropdown-data {
+    display: block;
+}
+
+.message-dropdown:has(#checked:checked) .message-lable {
+    display: none;
+    
+}
+.message-dropdown:has(#checked:not(:checked)) .message-lable {
+    display: block;
+}
+
+.cross-icon{
+    color: #cbcbcb;
+}
+.message-h-3{
+    font-size: 18px;
+    color: #424242;
+    margin-left: 8px;
+    font-family: HelveticaNeue-Medium;
+    line-height: 20px;
+}
+.envelope-icon{
+    font-size: 40px;
+    color: #949393;
+    margin-bottom: 40px;
+}
+.right-div-body{
+    text-align: center;
+}
+.right-body-link{
+    color: #0bb8e1;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+}
+.right-body-para{
+    color: #858585;
+    font-size: 14px;
+}
+.right-body-link2{
+    color: #6d99a9;
+    text-decoration: none;
+    font-size: 16px;
+}
+.right-body-1{
+    margin-top: 120px;
+}
